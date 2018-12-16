@@ -60,8 +60,8 @@ void setup() {
   //println(colors[colorPalette.length]);
   println("SET UP");  
   // it's possible to customize this, for example 1920x1080
-  size(600, 400);
-  //fullScreen();    
+  //size(600, 400);
+  fullScreen(P2D);    
   background(bg);
 
   //colorMode(HSB, 360, 100, 100);  
